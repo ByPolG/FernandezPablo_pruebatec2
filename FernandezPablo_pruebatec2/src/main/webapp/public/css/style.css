@@ -10,11 +10,11 @@ html, body {
     font-family: Arial, sans-serif;
 }
 
-/* Ajustar el header */
+/* Ajustamos el header */
 
 header {
     background-color: #f8f8f8;
-    padding: 10px 0;  /* Puedes ajustar este padding según lo que necesites */
+    padding: 10px 0;
 }
 
 nav ul {
@@ -35,7 +35,7 @@ nav ul li a {
     padding: 8px 16px;
 }
 
-/* Agregar un poco de espacio entre el contenido principal y el header */
+/* Agregamos un poco de espacio entre el contenido principal y el header */
 
 main {
     padding-top: 20px;  /* Ajusta según lo que necesites */
