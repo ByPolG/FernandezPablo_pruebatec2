@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* Asegura que los márgenes y padding no afecten al tamaño de los elementos */
+}
+
+
+html, body {
+    height: 100%;  /* Asegura que el cuerpo ocupe toda la altura de la ventana */
+    font-family: Arial, sans-serif;
+}
+
+/* Ajustar el header */
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;  /* Puedes ajustar este padding según lo que necesites */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;  /* Distribuye los elementos de forma equitativa */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;  /* Se asegura de que los elementos estén alineados en una fila */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+/* Agregar un poco de espacio entre el contenido principal y el header */
+
+main {
+    padding-top: 20px;  /* Ajusta según lo que necesites */
+}
+
+/* Para que el contenido ocupe el espacio restante sin salir de la pantalla */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* Asegura que el body ocupe toda la altura de la pantalla */
+}
+
+/* Asegura que el footer no quede al fondo si no hay suficiente contenido */
+
+footer {
+    margin-top: auto;  /* El footer se mantiene al fondo solo si el contenido es menor que la ventana */
+}
