@@ -62,6 +62,7 @@ Para probar la aplicación necesitas:
    - Crea una base de datos llamada `turnos_db`.
    - Crear la tabla `ciudadano` y `turno`
    - Crear el índice en las columnas `fecha` y `estado` de la tabla `turno`.
+   - Crear datos de prueba.
    - Comprueba que el archivo `persistence.xml` esté configurado con las credenciales correctas para conectarse a la base de datos.
 
 
