@@ -27,6 +27,8 @@ public class TurnoServlet extends HttpServlet {
 
         List<Turno> turnos;
 
+        // Comprobamos que los valores no son nulos
+        
         try {
             Date fecha = null;
             if (fechaStr != null && !fechaStr.isEmpty()) {
@@ -45,6 +47,7 @@ public class TurnoServlet extends HttpServlet {
             }
 
             // Filtramos los turnos según los parámetros de fecha, estado y ciudadanoId
+            
             if (fecha != null && estado != null && ciudadanoId != null) {
                 turnos = turnoController.filterTurnosByFechaAndEstadoAndCiudadanoID(fecha, estado, ciudadanoId);
             } else if (fecha != null && ciudadanoId != null) {
